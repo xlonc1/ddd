@@ -1,5 +1,6 @@
 # ddd
-Training ddd
+Training DDD
+
 
 
 Repo written after seeing WJUG #211 - Modularity and hexagonal architecture in real life
