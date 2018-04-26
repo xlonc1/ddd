@@ -15,7 +15,7 @@ class LoggingAspect {
     @Pointcut("target(org.springframework.data.repository.Repository)")
     void allRepositories() {}
 
-    @Pointcut("@within(eu.solidcraft.infrastructure.metrics.logging.Log)")
+    @Pointcut("@within(pl.training.ddd.infrastructure.logging.Log)")
     void logAnnotation() {}
 
     @Around("allRepositories() || logAnnotation()")

@@ -1,8 +1,5 @@
 package pl.training.ddd.film
 
-import eu.solidcraft.base.IntegrationSpec
-import eu.solidcraft.film.domain.FilmFacade
-import eu.solidcraft.film.domain.SampleFilms
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.test.context.support.WithMockUser
 import org.springframework.test.web.servlet.ResultActions
